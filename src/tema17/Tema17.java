@@ -18,15 +18,15 @@ public class Tema17 {
         
     }
     
-    private int a (int valorA) {
-        int valorFuncionB = b(valorA);
+    public int a (int valorA) {
+        int valorFuncionB = this.b(valorA);
         return valorFuncionB;
         
     }
     
     private int b (int valorB) {
         int valorDecrementado = valorB -1;
-        int valorFuncionC = c(valorDecrementado);
+        int valorFuncionC = this.c(valorDecrementado);
         return valorFuncionC;
     }
     
